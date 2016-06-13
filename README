@@ -1,0 +1,6 @@
+
+Installation
+
+- Just create two symbol links under the home directory, and that's it.
+  > .vimrc -> vimrc
+  > .vim -> vim
