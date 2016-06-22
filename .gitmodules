@@ -43,3 +43,6 @@
 [submodule "bundle/cscope_macros"]
 	path = bundle/cscope_macros
 	url = git@github.com:vim-scripts/cscope_macros.vim.git
+[submodule "bundle/colorschemes"]
+	path = bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
