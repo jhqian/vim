@@ -10,18 +10,18 @@ let Tlist_Show_One_File = 1         " Only show tags for current buffer
 " Colorscheme Solarized
 " If want to use solarized in the terminal vim export TERM as below in .bashrc
 " export TERM="xterm-256color"
-"let g:solarized_termtrans=1
-"let g:solarized_termcolors=256
-"let g:solarized_contrast="high"
-"let g:solarized_visibility="high"
-"colorscheme solarized
+let g:solarized_termtrans=1
+let g:solarized_termcolors=256
+let g:solarized_contrast="high"
+let g:solarized_visibility="high"
+colorscheme solarized
 "
 " Colorscheme badwolf
 " colorscheme badwolf 
 
 " Colorscheme molokai 
-colorscheme molokai 
-let g:molokai_original = 1
+"colorscheme molokai 
+"let g:molokai_original = 1
 
 " ctrlp.vim
 " match file order  from top to bottom with ttb
@@ -46,8 +46,8 @@ set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 nnoremap <Leader>gs :Gstatus<CR>
 nnoremap <Leader>gd :Gdiff<CR>
 nnoremap <Leader>gb :Gblame<CR>
-" nnoremap <Leader>gL :exe ':!cd ' . expand('%:p:h') . '; git log'<CR>
-" nnoremap <Leader>gl :exe ':!cd ' . expand('%:p:h') . '; git lo'<CR>
+nnoremap <Leader>gL :exe ':!cd ' . expand('%:p:h') . '; git log'<CR>
+nnoremap <Leader>gl :exe ':!cd ' . expand('%:p:h') . '; git lo'<CR>
 nnoremap <Leader>gh :silent Glog<CR>:copen<CR>:redraw!<CR>
 " nnoremap <Leader>gr :Gread<CR>
 " nnoremap <Leader>gw :Gwrite<CR>
