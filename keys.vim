@@ -53,4 +53,9 @@ nnoremap <leader>2 :TagbarToggle<CR>
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
 
-
+map <C-A> <Home>
+imap <C-A> <Home>
+vmap <C-A> <Home>
+map <C-E> <End>
+imap <C-E> <End>
+vmap <C-E> <End>

@@ -7,7 +7,7 @@ set nocp
 " encoding
 set encoding=utf-8
 set fileencodings=utf-8,chinese,latin-1
-language message zh_CN.utf-8
+language message en_US.utf-8
 
 if $TMUX==''
     set clipboard+=unnamed
