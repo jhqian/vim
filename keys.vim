@@ -59,3 +59,8 @@ vmap <C-A> <Home>
 map <C-E> <End>
 imap <C-E> <End>
 vmap <C-E> <End>
+
+nnoremap <silent> <leader><Up> :exe "resize " . (winheight(0) * 6/7) <CR>
+nnoremap <silent> <leader><Down> :exe "resize " . (winheight(0) * 7/6) <CR>
+nnoremap <silent> <leader><Left> :exe "vertical resize " . (winwidth(0) * 7/6) <CR>
+nnoremap <silent> <leader><Right> :exe "vertical resize " . (winwidth(0) * 6/7) <CR>
