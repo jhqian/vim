@@ -23,4 +23,4 @@ source $VIMFILES/keys.vim
 source $VIMFILES/pluginconf.vim
 source $VIMFILES/config.vim
 
-source $VIMFILES/vundleconfig.vim
+source $VIMFILES/vundle.vim

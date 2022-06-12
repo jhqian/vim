@@ -7,7 +7,7 @@ set nocp
 " encoding
 set encoding=utf-8
 set fileencodings=utf-8,chinese,latin-1
-language message en_US.utf-8
+language message en_US.UTF-8
 
 if $TMUX==''
     set clipboard+=unnamed
@@ -86,7 +86,7 @@ endif
 
 function! InsertStatuslineColor(mode)
 	if a:mode == 'i'
-		hi statusline guibg=magenta
+		hi statusline guibg=orange
 	elseif a:mode == 'r'
 		hi statusline guibg=blue
 	else
