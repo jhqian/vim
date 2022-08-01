@@ -10,11 +10,12 @@ let Tlist_Show_One_File = 1         " Only show tags for current buffer
 " Colorscheme Solarized
 " If want to use solarized in the terminal vim export TERM as below in .bashrc
 " export TERM="xterm-256color"
-let g:solarized_termtrans=1
-let g:solarized_termcolors=256
-let g:solarized_contrast="high"
-let g:solarized_visibility="high"
-colorscheme solarized
+" let g:solarized_termtrans=1
+" let g:solarized_termcolors=256
+" let g:solarized_contrast="high"
+" let g:solarized_visibility="high"
+" set background=dark
+" colorscheme solarized8
 "
 " Colorscheme badwolf
 " colorscheme badwolf 

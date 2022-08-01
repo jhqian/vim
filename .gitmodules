@@ -52,3 +52,12 @@
 [submodule "bundle/Vundle.vim"]
 	path = bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "bundle/DoxygenToolkit.vim"]
+	path = bundle/DoxygenToolkit.vim
+    url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
+[submodule "bundle/vim-sensible"]
+	path = bundle/vim-sensible
+    url = https://github.com/tpope/vim-sensible.git
+[submodule "bundle/vim-solarized8"]
+	path = bundle/vim-solarized8
+    url = https://github.com/lifepillar/vim-solarized8.git
